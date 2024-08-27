@@ -1,0 +1,44 @@
+.headerIndex {
+  background-image: url(../../img/headerBackground.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 95vh;
+  position: relative;
+}
+
+.oscurecerFondo {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7058823529);
+}
+
+.flexBasico {
+  flex-direction: column;
+}
+
+.botonesHeader {
+  border: none;
+  width: 8rem;
+  padding: 0.4rem 1rem;
+}
+
+.botonesHeader {
+  transition: transform 0.3s;
+}
+.botonesHeader:hover {
+  transform: scale(1.1);
+}
+
+.flexBasico {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+/*# sourceMappingURL=styles.css.map */
