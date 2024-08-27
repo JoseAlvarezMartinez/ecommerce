@@ -18,7 +18,7 @@
 <body>
     <header class="headerIndex">
         <div class="oscurecerFondo">
-            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary position-fixed w-100 z-2">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#">Titulo Ecommerce</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -42,7 +42,7 @@
                 </div>
             </nav>
 
-            <section class="flexBasico h-75">
+            <section class="flexBasico h-100">
                 <h1 class="text-white fw-light fs-4 text-center">La Mejor Indumentaria Urbana de Zona Norte: ¡Compra lo
                     Último en Moda!</h1>
 
@@ -53,6 +53,30 @@
             </section>
         </div>
     </header>
+
+    <main>
+        <h2 class="text-center my-3">Tienda</h2>
+
+        <section class="contenedorGrid">
+            <section class="card">
+                <img class="w-100" src="img/ImagenRemera.jpeg" alt="Remera marca Lowtian color negra">
+                <h3>Remera Oversize</h3>
+                <p class="precio">$20.000</p>
+            </section>
+
+            <section class="card">
+                <img class="w-100" src="img/ImagenRemera.jpeg" alt="Remera marca Lowtian color negra">
+                <h3>Remera Oversize</h3>
+                <p class="precio text-decoration-line-through text-danger">$20.000</p>
+            </section>
+
+            <section class="card cardTotal">
+                <img class="w-100" src="img/ImagenRemera.jpeg" alt="Remera marca Lowtian color negra">
+                <h3>Remera Oversize</h3>
+                <p class="precio">$20.000</p>
+            </section>
+        </section>
+    </main>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"

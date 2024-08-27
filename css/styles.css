@@ -31,6 +31,43 @@
   transform: scale(1.1);
 }
 
+.card {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 23rem;
+  padding: 1rem;
+}
+
+.card h3 {
+  margin-top: 1rem;
+  font-weight: 600;
+}
+
+@media only screen and (min-width: 600px) {
+  .contenedorGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 1rem;
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+@media only screen and (min-width: 800px) {
+  .contenedorGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media only screen and (min-width: 600px) {
+  .cardTotal {
+    grid-column: 1/3;
+    max-width: unset;
+  }
+}
+@media only screen and (min-width: 700px) {
+  .cardTotal {
+    grid-column: unset;
+  }
+}
 .flexBasico {
   display: flex;
   align-items: center;
